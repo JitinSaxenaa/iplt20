@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    
+
+    background-image: url("ipl-2021-ix7zwgff29ylomuf (1).jpg");
+    
+    /* Center the background image horizontally and vertically */
+    background-position: center center;
+    
+    /* Cover the entire screen */
+    background-size: cover;
+    
+    /* Ensure the background image is fixed */
+    background-attachment: fixed;
+    
+    /* Optional: Set a background color as fallback */
+    background-color: #151212;
+
+}
+
+.main {
+    /*background-image: url("Gayle-Kohli-IPL-cut-e1552663956358-980x530.webp");*/
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* Button hover effect */
+
+    a:hover {
+    background-color: #e65858;
+}
+
+/* Button focus effect */
+    a:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(23, 95, 172, 0.5); /* Adjust color and size as needed */
+}
+    a:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+    
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    
+}
+
+nav {
+    max-width: 40vw;
+    justify-content: space-between ;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    flex-direction: row;
+    
+    
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav .btn {
+    width: 100%;
+    height: 100%;
+    color: #11141c;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+    border-radius: 3px;
+    transform: skew(-10deg);
+    position: relative;
+    z-index: 10;
+    margin: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
